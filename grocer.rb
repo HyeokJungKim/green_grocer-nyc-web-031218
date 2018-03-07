@@ -2,7 +2,7 @@ def consolidate_cart(cart)
   # code here
   ans = Hash.new(0)
   cart.keys.each do |key|
-    ans[hash] += 1
+    ans[key] += 1
   end
   return ans
 
